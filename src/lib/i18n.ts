@@ -31,8 +31,16 @@ export const dictionaries: Record<Locale, Dictionary> = {
       { href: "/anatomy", label: "Anatomy", description: "Transparent layered anatomy explorer" },
       { href: "/protocols", label: "Protocols", description: "MLD, acupressure and breath sequences" },
       { href: "/meditations", label: "Meditations", description: "10 guided chakra-meridian practices" },
+      { href: "/chakras", label: "Chakras", description: "7 chakra mappings and activation flows" },
+      { href: "/meridians", label: "Meridians", description: "12 meridian pathways and drainage links" },
+      { href: "/healing-hands", label: "Healing Hands", description: "Element-based hand positioning and touch" },
+      { href: "/supernatural", label: "Energetic Methods", description: "Aura, vibrational, and intuitive healing" },
+      { href: "/workouts", label: "Workouts", description: "Daily movement and lymph flow workout plans" },
+      { href: "/journal", label: "Journal", description: "Tracking templates for measurable outcomes" },
+      { href: "/labs", label: "Labs", description: "Experimental protocol builder for experts" },
+      { href: "/app", label: "App", description: "Digital toolkit and guided session library" },
       { href: "/case-studies", label: "Case Studies", description: "Outcome-focused healing stories" },
-      { href: "/resources", label: "Resources", description: "Worksheets, journals, and labs" },
+      { href: "/resources", label: "Resources", description: "Worksheets, references, and printable packs" },
       { href: "/about", label: "About", description: "Philosophy, safety, and mission" },
       { href: "/contact", label: "Contact", description: "Book sessions and submit questions" }
     ],
@@ -66,7 +74,7 @@ export const dictionaries: Record<Locale, Dictionary> = {
       { label: "Guided Meditations", value: "10" },
       { label: "Acupressure Points", value: "100+" },
       { label: "Healing Hand Positions", value: "100+" },
-      { label: "Protocol Variations", value: "7 tracks" }
+      { label: "Protocol Variations", value: "16 pages" }
     ],
     footer: {
       sitemap: "Complete Sitemap",
@@ -85,8 +93,16 @@ export const dictionaries: Record<Locale, Dictionary> = {
       { href: "/anatomy", label: "آناتومی", description: "کاوشگر آناتومی شفاف و لایه‌ای" },
       { href: "/protocols", label: "پروتکل‌ها", description: "توالی‌های MLD، طب فشاری و تنفس" },
       { href: "/meditations", label: "مدیتیشن‌ها", description: "۱۰ تمرین هدایت‌شده چاکرا و مریدین" },
+      { href: "/chakras", label: "چاکراها", description: "نگاشت ۷ چاکرا و جریان‌سازی درمانی" },
+      { href: "/meridians", label: "مریدین‌ها", description: "۱۲ مسیر مریدین و ارتباط با تخلیه لنف" },
+      { href: "/healing-hands", label: "دست‌های درمانگر", description: "جایگاه‌های دست و لمس عنصرمحور" },
+      { href: "/supernatural", label: "روش‌های انرژی‌محور", description: "پاکسازی هاله، ارتعاش و تکنیک‌های شهودی" },
+      { href: "/workouts", label: "تمرینات", description: "برنامه‌های روزانه حرکت و جریان لنفاوی" },
+      { href: "/journal", label: "ژورنال", description: "فرم‌های ثبت پیشرفت و خروجی‌ درمان" },
+      { href: "/labs", label: "آزمایشگاه", description: "سازنده پروتکل‌های پیشرفته برای متخصصان" },
+      { href: "/app", label: "اپلیکیشن", description: "کتابخانه جلسات هدایت‌شده دیجیتال" },
       { href: "/case-studies", label: "مطالعات موردی", description: "روایت‌های درمانی مبتنی بر نتیجه" },
-      { href: "/resources", label: "منابع", description: "کاربرگ‌ها، ژورنال و آزمایشگاه‌ها" },
+      { href: "/resources", label: "منابع", description: "کاربرگ‌ها، رفرنس‌ها و بسته‌های چاپی" },
       { href: "/about", label: "درباره", description: "فلسفه، ایمنی و مأموریت" },
       { href: "/contact", label: "تماس", description: "رزرو جلسه و ارسال پرسش" }
     ],
@@ -120,7 +136,7 @@ export const dictionaries: Record<Locale, Dictionary> = {
       { label: "مدیتیشن هدایت‌شده", value: "۱۰" },
       { label: "نقاط طب فشاری", value: "+۱۰۰" },
       { label: "جایگاه‌های دست درمانی", value: "+۱۰۰" },
-      { label: "تنوع پروتکل", value: "۷ مسیر" }
+      { label: "تنوع صفحات", value: "۱۶ صفحه" }
     ],
     footer: {
       sitemap: "نقشه کامل سایت",
